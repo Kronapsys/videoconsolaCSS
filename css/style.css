@@ -1,0 +1,33 @@
+.esqueleto{ 
+    border: 0.1em solid black;    
+}
+
+.nintendoSwitch{
+    display: flex;
+}
+
+#joyConL{
+    height: 27.2em;
+    width: 8.5em; 
+    display: flex;
+    flex-direction: row;
+    border-radius: 5em 0em 0em 5em;
+}
+
+#cuerpo{
+    height: 27.2em;
+    width: 47.6em;
+    flex-direction: row;
+}
+
+#joyConR{
+    height: 27.2em;
+    width: 7.82em;  
+    flex-direction: row; 
+    border-radius: 0em 5em 5em 0em; 
+}
+
+#pantalla{
+    height: 23em;
+    margin: 2em 3em 2em 3em;
+}
