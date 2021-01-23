@@ -1,115 +1,114 @@
-.esqueleto{ 
-    border: 0.1em solid black;    
+.esqueleto {
+  border: 0.1em solid black;
 }
 
-.nintendoSwitch{
-    display: flex;
+.nintendoSwitch {
+  display: flex;
 }
 
-#joyConL{
-    height: 27.2em;
-    width: 8.5em; 
-    display: flex;
-    flex-direction: row;
-    border-radius: 5em 0em 0em 5em;
-    background-color: rgb(79, 190, 220);
+#joyConL {
+  height: 27.2em;
+  width: 8.5em;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5em 0em 0em 5em;
+  background-color: rgb(79, 190, 220);
 }
 
-#cuerpo{
-    height: 27.2em;
-    width: 47.6em;
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(51, 52, 56);
+#cuerpo {
+  height: 27.2em;
+  width: 47.6em;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(51, 52, 56);
 }
 
-#joyConR{
-    height: 27.2em;
-    width: 7.82em;  
-    flex-direction: row; 
-    border-radius: 0em 5em 5em 0em;
-    background-color: rgb(239, 95, 84);
+#joyConR {
+  height: 27.2em;
+  width: 7.82em;
+  flex-direction: row;
+  border-radius: 0em 5em 5em 0em;
+  background-color: rgb(239, 95, 84);
 }
 
-#marcoPantalla{
-    height: 25em;
-    width: 45em;
-    display: flex;
-    margin: 1em 1.5em 1em 1.5em;
-    background-color: rgb(1, 1, 1);
+#marcoPantalla {
+  height: 25em;
+  width: 45em;
+  display: flex;
+  margin: 1em 1.5em 1em 1.5em;
+  background-color: rgb(1, 1, 1);
 }
 
-
-#pantalla{
-    margin: 2em 3em 2em 3em;
+#pantalla {
+  margin: 2em 3em 2em 3em;
 }
 
-.menu{
-    height: 21em;
-    width: 38em;
+.menu {
+  height: 21em;
+  width: 38em;
 }
 
-#btnMenos{
-    height: 0.3em;
-    width: 1.2em;
-    background-color: rgb(57, 63, 68);
-    position: absolute;
-    top: 3em;
-    left: 7em;
+#btnMenos {
+  height: 0.3em;
+  width: 1.2em;
+  background-color: rgb(57, 63, 68);
+  position: absolute;
+  top: 3em;
+  left: 7em;
 }
 
-#joystickL{
-    height: 3.6em;
-    width: 3.6em;
-    background-color: rgb(57, 63, 68);
-    border-radius: 100%;
-    position: absolute;
-    top: 6em;
-    left: 3.2em;
+#joystickL {
+  height: 3.6em;
+  width: 3.6em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 6em;
+  left: 3.2em;
 }
 
-#centroJoystickL{
-    height: 3em;
-    width: 3em;
-    background-color: rgb(57, 63, 68);
-    border-radius: 100%;
-    position: absolute;
-    top: 0.2em;
-    left: 0.2em;
+#centroJoystickL {
+  height: 3em;
+  width: 3em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 0.2em;
+  left: 0.2em;
 }
 
-#btnIzqArriba{
-    height: 1.5em;
-    width: 1.5em;
-    background-color: rgb(57, 63, 68);
-    border-radius: 100%;
-    position: absolute;
-    top: 14em;
-    left: 4.2em;
+#btnIzqArriba {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 14em;
+  left: 4.2em;
 }
 
-#flechaArriba{
-    width: 0;
-    height: 0;
-    border-left: 0.3125em solid transparent;
-    border-right: 0.3125em solid transparent;
-    border-bottom: 0.625em solid rgb(0, 0, 0);
-    position: absolute;
-    top: 0.3em;
-    left: 0.42em;
+#flechaArriba {
+  width: 0;
+  height: 0;
+  border-left: 0.3125em solid transparent;
+  border-right: 0.3125em solid transparent;
+  border-bottom: 0.625em solid rgb(0, 0, 0);
+  position: absolute;
+  top: 0.3em;
+  left: 0.42em;
 }
 
-#btnIzqDerecha{
-    height: 1.5em;
-    width: 1.5em;
-    background-color: rgb(57, 63, 68);
-    border-radius: 100%;
-    position: absolute;
-    top: 16em;
-    left: 6.2em;
+#btnIzqDerecha {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 16em;
+  left: 6.2em;
 }
 
-#flechaDerecha{
+#flechaDerecha {
   width: 0em;
   height: 0em;
   border-top: 0.3125em solid transparent;
@@ -118,19 +117,19 @@
   position: absolute;
   top: 0.45em;
   left: 0.45em;
-} 
-
-#btnIzqAbajo{
-    height: 1.5em;
-    width: 1.5em;
-    background-color: rgb(57, 63, 68);
-    border-radius: 100%;
-    position: absolute;
-    top: 18em;
-    left: 4.2em;
 }
 
-#flechaAbajo{
+#btnIzqAbajo {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 18em;
+  left: 4.2em;
+}
+
+#flechaAbajo {
   width: 0em;
   height: 0em;
   border-left: 0.3125em solid transparent;
@@ -141,17 +140,17 @@
   left: 0.45em;
 }
 
-#btnIzqIzquierda{
-    height: 1.5em;
-    width: 1.5em;
-    background-color: rgb(57, 63, 68);
-    border-radius: 100%;
-    position: absolute;
-    top: 16em;
-    left: 2.2em;
+#btnIzqIzquierda {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 16em;
+  left: 2.2em;
 }
 
-#flechaIzquierda{
+#flechaIzquierda {
   width: 0em;
   height: 0em;
   border-top: 0.3125em solid transparent;
@@ -162,21 +161,135 @@
   left: 0.26em;
 }
 
-#btnScreenshot{
-    width: 1.2em;
-    height: 1.2em;
-    background-color: rgb(57, 63, 68);
-    position: absolute;
-    top: 20.8em;
-    left: 6em;
+#btnScreenshot {
+  width: 1.2em;
+  height: 1.2em;
+  background-color: rgb(57, 63, 68);
+  position: absolute;
+  top: 20.8em;
+  left: 6em;
 }
 
-#detalleBtnScreenshot{
-    width: 0.7em;
-    height: 0.7em;
-    background-color: rgb(43, 45, 49);
-    border-radius: 100%;
-    position: absolute;
-    top: 0.15em;
-    left: 0.15em;
+#detalleBtnScreenshot {
+  width: 0.7em;
+  height: 0.7em;
+  background-color: rgb(43, 45, 49);
+  border-radius: 100%;
+  position: absolute;
+  top: 0.15em;
+  left: 0.15em;
+}
+
+#btnMas {
+  position: absolute;
+  top: 1.2em;
+  left: 28.8em;
+}
+
+#btnDerX {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 5em;
+  left: 59.8em;
+}
+
+#letraX {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+#btnDerA {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 7em;
+  left: 61.8em;
+}
+
+#letraA {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+#btnDerB {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 9em;
+  left: 59.8em;
+}
+
+#letraB {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+#btnDerY {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 7em;
+  left: 57.8em;
+}
+
+#letraY {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+#joystickR {
+  height: 3.6em;
+  width: 3.6em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 15.3em;
+  left: 58.8em;
+}
+
+#centroJoystickR {
+  height: 3em;
+  width: 3em;
+  background-color: rgb(57, 63, 68);
+  border-radius: 100%;
+  position: absolute;
+  top: 0.2em;
+  left: 0.2em;
+}
+
+#btnHomeExterior {
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 100%;
+  background-color: rgb(106, 97, 105);
+  position: absolute;
+  top: 20.8em;
+  left: 58.5em;
+}
+
+#btnHome {
+  position: absolute;
+  top: 0.06em;
+  left: 0.03em;
 }
