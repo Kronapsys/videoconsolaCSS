@@ -49,3 +49,134 @@
     width: 38em;
 }
 
+#btnMenos{
+    height: 0.3em;
+    width: 1.2em;
+    background-color: rgb(57, 63, 68);
+    position: absolute;
+    top: 3em;
+    left: 7em;
+}
+
+#joystickL{
+    height: 3.6em;
+    width: 3.6em;
+    background-color: rgb(57, 63, 68);
+    border-radius: 100%;
+    position: absolute;
+    top: 6em;
+    left: 3.2em;
+}
+
+#centroJoystickL{
+    height: 3em;
+    width: 3em;
+    background-color: rgb(57, 63, 68);
+    border-radius: 100%;
+    position: absolute;
+    top: 0.2em;
+    left: 0.2em;
+}
+
+#btnIzqArriba{
+    height: 1.5em;
+    width: 1.5em;
+    background-color: rgb(57, 63, 68);
+    border-radius: 100%;
+    position: absolute;
+    top: 14em;
+    left: 4.2em;
+}
+
+#flechaArriba{
+    width: 0;
+    height: 0;
+    border-left: 0.3125em solid transparent;
+    border-right: 0.3125em solid transparent;
+    border-bottom: 0.625em solid rgb(0, 0, 0);
+    position: absolute;
+    top: 0.3em;
+    left: 0.42em;
+}
+
+#btnIzqDerecha{
+    height: 1.5em;
+    width: 1.5em;
+    background-color: rgb(57, 63, 68);
+    border-radius: 100%;
+    position: absolute;
+    top: 16em;
+    left: 6.2em;
+}
+
+#flechaDerecha{
+  width: 0em;
+  height: 0em;
+  border-top: 0.3125em solid transparent;
+  border-bottom: 0.3125em solid transparent;
+  border-left: 0.625em solid rgb(0, 0, 0);
+  position: absolute;
+  top: 0.45em;
+  left: 0.45em;
+} 
+
+#btnIzqAbajo{
+    height: 1.5em;
+    width: 1.5em;
+    background-color: rgb(57, 63, 68);
+    border-radius: 100%;
+    position: absolute;
+    top: 18em;
+    left: 4.2em;
+}
+
+#flechaAbajo{
+  width: 0em;
+  height: 0em;
+  border-left: 0.3125em solid transparent;
+  border-right: 0.3125em solid transparent;
+  border-top: 0.625em solid rgb(0, 0, 0);
+  position: absolute;
+  top: 0.45em;
+  left: 0.45em;
+}
+
+#btnIzqIzquierda{
+    height: 1.5em;
+    width: 1.5em;
+    background-color: rgb(57, 63, 68);
+    border-radius: 100%;
+    position: absolute;
+    top: 16em;
+    left: 2.2em;
+}
+
+#flechaIzquierda{
+  width: 0em;
+  height: 0em;
+  border-top: 0.3125em solid transparent;
+  border-bottom: 0.3125em solid transparent;
+  border-right: 0.625em solid rgb(0, 0, 0);
+  position: absolute;
+  top: 0.45em;
+  left: 0.26em;
+}
+
+#btnScreenshot{
+    width: 1.2em;
+    height: 1.2em;
+    background-color: rgb(57, 63, 68);
+    position: absolute;
+    top: 20.8em;
+    left: 6em;
+}
+
+#detalleBtnScreenshot{
+    width: 0.7em;
+    height: 0.7em;
+    background-color: rgb(43, 45, 49);
+    border-radius: 100%;
+    position: absolute;
+    top: 0.15em;
+    left: 0.15em;
+}
