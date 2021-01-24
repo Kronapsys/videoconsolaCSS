@@ -49,11 +49,11 @@
 }
 
 #btnMenos {
-  height: 0.3em;
-  width: 1.2em;
+  height: 0.2em;
+  width: 1em;
   background-color: rgb(57, 63, 68);
   position: absolute;
-  top: 3em;
+  top: 2.9em;
   left: 7em;
 }
 
@@ -193,7 +193,7 @@
   border-radius: 100%;
   position: absolute;
   top: 5em;
-  left: 59.8em;
+  left: 60em;
 }
 
 #letraX {
@@ -211,7 +211,7 @@
   border-radius: 100%;
   position: absolute;
   top: 7em;
-  left: 61.8em;
+  left: 62em;
 }
 
 #letraA {
@@ -229,7 +229,7 @@
   border-radius: 100%;
   position: absolute;
   top: 9em;
-  left: 59.8em;
+  left: 60em;
 }
 
 #letraB {
@@ -247,7 +247,7 @@
   border-radius: 100%;
   position: absolute;
   top: 7em;
-  left: 57.8em;
+  left: 58em;
 }
 
 #letraY {
@@ -265,7 +265,7 @@
   border-radius: 100%;
   position: absolute;
   top: 15.3em;
-  left: 58.8em;
+  left: 59em;
 }
 
 #centroJoystickR {
@@ -292,4 +292,73 @@
   position: absolute;
   top: 0.06em;
   left: 0.03em;
+}
+
+#muescaPantIzquierda {
+  height: 2em;
+  width: 1em;
+  position: absolute;
+  background-color: white;
+  border-radius: 0% 0% 75% 0%;
+  top: -0.8em;
+  left: 9.2em;
+}
+
+#muescaPantDerecha {
+  height: 2em;
+  width: 1em;
+  position: absolute;
+  background-color: white;
+  border-radius: 0% 0% 0% 75%;
+  top: -0.8em;
+  left: 56em;
+}
+
+#btnVolMenos {
+  height: 0.16em;
+  width: 1em;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0.4em;
+  left: 16em;
+}
+
+#btnVol {
+  height: 0.08em;
+  width: 1.5em;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0.45em;
+  left: 17em;
+}
+
+#btnVolMas {
+  height: 0.16em;
+  width: 1em;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0.4em;
+  left: 18.2em;
+}
+
+#gatilloL {
+  height: 22em;
+  width: 7em;
+  position: absolute;
+  border-radius: 5em 0em 0em 0em;
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+  top: 0.29em;
+  left: 0.5em;
+}
+
+#gatilloR {
+  height: 22em;
+  width: 7em;
+  position: absolute;
+  border-radius: 0em 5em 0em 0em;
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+  top: 0.29em;
+  left: 57.8em;
 }
